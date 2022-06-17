@@ -76,14 +76,16 @@ h2 {
    padding: 120px 60px;
  }
 
-  .nest-section {
+  .container-section {
     padding: 120px 60px;
   }
- .nest-section h1 {
+
+  .container-section h1 {
    font-size: 64px;
    line-height: 80px;
  }
- .nest-section h2 {
+
+ .container-section h2 {
    font-size: 18px;
    font-family: var(--default-font-family);
  }
@@ -92,7 +94,7 @@ h2 {
    border-radius: 4px;
  }
 
- .nest-info-content {
+ .content {
    margin: 30px;
  }
 
@@ -115,12 +117,12 @@ h2 {
     text-align: center;
    }
 
-   .nest-section {
+    .container-section {
      padding: 0;
      text-align: center;
    }
 
-   .nest-info-content h1 {
+   .content h1 {
      font-size: 30px;
    }
 
