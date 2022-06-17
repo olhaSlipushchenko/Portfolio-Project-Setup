@@ -76,6 +76,26 @@ h2 {
    padding: 120px 60px;
  }
 
+  .nest-section {
+    padding: 120px 60px;
+  }
+ .nest-section h1 {
+   font-size: 64px;
+   line-height: 80px;
+ }
+ .nest-section h2 {
+   font-size: 18px;
+   font-family: var(--default-font-family);
+ }
+
+ .my-photo {
+   border-radius: 4px;
+ }
+
+ .nest-info-content {
+   margin: 30px;
+ }
+
  @media (max-width: 900px) {
    h1 {
      font-size: 30px;
@@ -94,4 +114,14 @@ h2 {
     padding: 0;
     text-align: center;
    }
+
+   .nest-section {
+     padding: 0;
+     text-align: center;
+   }
+
+   .nest-info-content h1 {
+     font-size: 30px;
+   }
+
  }
