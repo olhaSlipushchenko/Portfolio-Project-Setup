@@ -35,6 +35,14 @@ h2 {
    line-height: 30px;
  }
 
+ a {
+   color: gray;
+ }
+
+ a:hover {
+   color: var(--primary-color);
+ }
+
  .hero {
    background-color: var(--secondary-color);
    text-align: center;
