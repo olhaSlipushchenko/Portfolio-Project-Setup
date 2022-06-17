@@ -90,12 +90,21 @@ h2 {
    font-family: var(--default-font-family);
  }
 
+ .container h3 {
+   font-size: 24px;
+   font-family: var(--default-font-family);
+ }
+
  .my-photo {
    border-radius: 4px;
  }
 
  .content {
    margin: 30px;
+ }
+ 
+ .content p {
+   font-size: 14px;
  }
 
  @media (max-width: 900px) {
