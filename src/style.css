@@ -37,10 +37,42 @@ h2 {
 
  a {
    color: gray;
+   transition: all 150ms ease-in-out;
  }
 
  a:hover {
    color: var(--primary-color);
+ }
+
+ nav {
+   padding: 20px 0;
+ }
+
+ nav ul {
+   padding: 0;
+   margin: 0;
+ }
+ nav li {
+   display: inline;
+   list-style: none;
+   line-height: 42px;
+   margin-left: 15px;
+ }
+
+ nav a {
+   text-decoration: none;
+   transition: all 150ms ease-in-out;
+ }
+
+ nav li.active a {
+   color: var(--primary-color);
+ }
+
+ .menu-header{
+   background-color: white;
+   position: sticky;
+   top: 0;
+  
  }
 
  .hero {
@@ -70,6 +102,7 @@ h2 {
    font-size: 18px;
    line-height: 27px;
    padding: 15px 30px;
+   transition: all 150ms ease-in-out;
  }
  .btn-branding-outline {
    border-radius: 4px;
@@ -115,6 +148,10 @@ h2 {
    font-size: 14px;
  }
 
+ .icon {
+   color: var(--primary-color);
+ }
+
  @media (max-width: 900px) {
    h1 {
      font-size: 30px;
@@ -142,5 +179,16 @@ h2 {
    .content h1 {
      font-size: 30px;
    }
+
+   nav {
+   padding: 10px 0;
+ }
+
+    nav li {
+   display: inline;
+   list-style: none;
+   line-height: 20px;
+   margin-left: 5px;
+ }
 
  }
