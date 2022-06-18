@@ -28,6 +28,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
  p {
    font-family: var(--default-font-family);
    font-weight: normal;
@@ -41,6 +45,10 @@ h2 {
  }
 
  a:hover {
+   color: var(--primary-color);
+ }
+
+ i {
    color: var(--primary-color);
  }
 
@@ -151,6 +159,38 @@ h2 {
  .icon {
    color: var(--primary-color);
  }
+
+ footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    
+    border-radius: 4px;
+ }
+
+ footer .contact-box p {
+   margin: 0;
+ }
+
+ footer .email-link {
+   display: block;
+   text-decoration: none;
+   color: black;
+   font-size: 24px;
+   text-align: center;
+   transition: all 100ms ease-in-out;
+   
+ }
+ footer .email-link:hover {
+   color: var(--primary-color);
+ }
+footer .social-links a{
+   margin: 20px;
+   padding: 10px 14px;
+   border-radius: 50%;
+   font-size: 30px;
+}
+
+
 
  @media (max-width: 900px) {
    h1 {
